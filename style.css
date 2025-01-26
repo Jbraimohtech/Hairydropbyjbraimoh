@@ -41,13 +41,13 @@ body {
     .content-topic-headings {
         justify-content: center;
         margin-left: -120px;
-        margin-top: -30px;
-        margin-bottom: -40px;
+        margin-top: -25px;
+        margin-bottom: -30px;
     }
 
     .hairyStyle {
         margin-left: 45px;
-        margin-bottom: -23px;
+        margin-bottom: -20px;
     }
 
     .content-head-topic {
@@ -121,13 +121,13 @@ img {
 @media (max-width: 600px){
     .signAndLogBtn {
         width: fit-content;
-        margin-top: -20px;
+        margin-top: -10px;
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: 2;
         grid-gap: 10px;
         margin-left: 30px;
-        margin-bottom: -35px;
+        margin-bottom: -25px;
     }
 
     .sing-up-btn {
