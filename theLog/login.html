@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="">
+        <div class="container">
+            <form id="my-login-form" action="" onsubmit="return validateForm()">
+                <h2>Log in</h2>
+
+                <div>
+                    <button class="d-login" onclick="goToLogin()">Login <span><button class="sign-up" onclick="goToRegister()">Signup</button></span></button>
+                </div>
+               
+                <div class="email">
+                    <input type="email" placeholder="Email Address" required>
+                    <span id="emailError" class="error"></span>
+                </div>
+
+                <div  class="password">
+                    <input type="password" placeholder="Password" required>
+                    <span id="passwordError" class="error"></span>
+                </div>
+
+                <div>
+                    <button class="submit-btn" type="submit">Log in</button>
+                </div>
+
+
+                <p>You don't have an account? <a href="/theReg/register.html" class="go-to-login">Sign up</a></p>
+                
+                
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
