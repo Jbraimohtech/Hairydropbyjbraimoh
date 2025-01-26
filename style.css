@@ -42,11 +42,12 @@ body {
         justify-content: center;
         margin-left: -120px;
         margin-top: -30px;
-        margin-bottom: -30px;
+        margin-bottom: -40px;
     }
 
     .hairyStyle {
         margin-left: 45px;
+        margin-bottom: -23px;
     }
 
     .content-head-topic {
@@ -62,7 +63,8 @@ body {
 @media (max-width: 600px) {
     .under-head-topic {
         width: 100px;
-        font-size: 45px;
+        font-size: 30px;
+        margin-left: 40px;
     }
 }
 
@@ -72,8 +74,8 @@ body {
 
 @media (max-width: 600px) {
     .text-content {
-        width: 300px;
-        font-size: 15px;
+        width: 200px;
+        font-size: 12px;
         display: flex;
     }
 }
@@ -95,7 +97,6 @@ img {
 
 .sing-up-btn {
     text-decoration: none;
-    color: black;
     color: white;
     border: 0px;
     border-radius: 10px;
@@ -120,23 +121,24 @@ img {
 @media (max-width: 600px){
     .signAndLogBtn {
         width: fit-content;
-        margin-top: 5px;
+        margin-top: -20px;
         display: grid;
         grid-template-columns: 1;
         grid-template-rows: 2;
         grid-gap: 10px;
         margin-left: 30px;
+        margin-bottom: -35px;
     }
 
     .sing-up-btn {
-        width: 160px;
-        height: 20px;
+        width: 60px;
+        height: 15px;
         text-align: center;
     }
 
     .login-up-btn {
-        width: 160px;
-        height: 20px;
+        width: 60px;
+        height: 15px;
         text-align: center;
     }
 }
@@ -164,21 +166,25 @@ footer p {
         display: grid;
         grid-template-columns: 1fr;
         width: fit-content;
+        height: fit-content;
     }
 
     .my-logo {
+        margin-top: -50px;
         margin-left: -1px;
         display: flex;
         justify-content: center;
     }
 
     .main-content {
+        margin-top: -10px;
         display: flex;
         flex-direction: column;
     }
 
     img {
-        width: 300px;
+        width: 200px;
+        height: 200px;
         border-radius: 20px;
     }
 
@@ -189,6 +195,4 @@ footer p {
     .content-topic-headings {
         display: flex;
     }
-
-
 }
