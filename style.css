@@ -41,7 +41,7 @@ body {
     .content-topic-headings {
         justify-content: center;
         margin-left: -120px;
-        margin-top: -25px;
+        margin-top: -5px;
         margin-bottom: -30px;
     }
 
@@ -127,7 +127,7 @@ img {
         grid-template-rows: 2;
         grid-gap: 10px;
         margin-left: 30px;
-        margin-bottom: -25px;
+        margin-bottom: -10px;
     }
 
     .sing-up-btn {
@@ -160,6 +160,7 @@ footer p {
     body {
         margin: 0;
         padding: 0;
+        overflow-x: hidden;
     }
 
     .full-body-class {
@@ -170,7 +171,7 @@ footer p {
     }
 
     .my-logo {
-        margin-top: -50px;
+        margin-top: -30px;
         margin-left: -1px;
         display: flex;
         justify-content: center;
@@ -195,4 +196,6 @@ footer p {
     .content-topic-headings {
         display: flex;
     }
+
+
 }
